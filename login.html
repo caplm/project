@@ -5,39 +5,40 @@
   <link rel="stylesheet" href="public/stylesheets/style.css">
   </head>
   <body>
-    <form action="/login" method="POST">
-      <div>
-        <label for="email_address_login">your e-mail address</label>  
+    <form id="login_form" action="/login" method="POST">
+      <div id="email_login">
+        <label for="email_address_login">e-mail address</label>  
         <input type="text" name="email_address_login" id="email_address_login" value placeholder="i.e. yourname@gmail.com">
+        </div><br/>
        </div>
        <div>
-        <label for="password">your password</label>  
+        <label for="password">password</label>  
         <input type="password" name="password" id="password" value placeholder="your password">
-       </div>
+       </div><br/>
        <div>
-        <input type="submit" value="Log In">
+        <input type="submit" value="Existing User Log In">
        </div>   
     </form>
     <br/>
-    <form action="/signup" method="POST">
+    <form id="signup_form" action="/signup" method="POST">
       <div>
-        <label for="firstname">your first name</label>  
+        <label for="firstname">first name</label>  
         <input type="text" name="firstname" id="firstname"> 
-      </div>
+      </div><br/>
       <div>
-        <label for="lastname">your last name</label>  
+        <label for="lastname">last name</label>  
         <input type="text" name="lastname" id="lastname">
-      </div>
+      </div><br/>
       <div>
-        <label for="email_address_signup">your e-mail address</label>  
+        <label for="email_address_signup">e-mail address</label>  
         <input type="text" name="email_address_signup" id="email_address_signup" value placeholder="i.e. yourname@gmail.com">
-      </div>
+      </div><br/>
       <div>
         <label for="password">password</label>  
         <input type="password" name="password" id="password">
-      </div>
+      </div><br/>
       <div>
-        <input type="submit" value="Sign Up">
+        <input type="submit" value="New User Sign Up">
       </div>
     </form>
   </body>

@@ -1,4 +1,31 @@
 body {
 
   font-family: sans-serif;
+  color: navy;
+}
+
+input {
+
+  width: 200px;
+  display: inline-block;
+} 
+
+
+
+#login_form {
+
+    border-radius: 25px;
+    border: 2px solid navy;
+    padding: 20px; 
+    width: 240px;
+    height: auto; 
+}
+
+#signup_form {
+
+    border-radius: 25px;
+    border: 2px solid navy;
+    padding: 20px; 
+    width: 240px;
+    height: auto; 
 }
