@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+  <title>Mary's Project</title>
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+  </head>
+  <body>
+    <form action="/login" method="POST">
+      <div>
+        <label for="email_address_login">your e-mail address</label>  
+        <input type="text" name="email_address_login" id="email_address_login" value placeholder="i.e. yourname@gmail.com">
+       </div>
+       <div>
+        <label for="password">your password</label>  
+        <input type="password" name="password" id="password" value placeholder="your password">
+       </div>
+       <div>
+        <input type="submit" value="Log In">
+       </div>   
+    </form>
+    <br/>
+    <form action="/signup" method="POST">
+      <div>
+        <label for="firstname">your first name</label>  
+        <input type="text" name="firstname" id="firstname"> 
+      </div>
+      <div>
+        <label for="lastname">your last name</label>  
+        <input type="text" name="lastname" id="lastname">
+      </div>
+      <div>
+        <label for="email_address_signup">your e-mail address</label>  
+        <input type="text" name="email_address_signup" id="email_address_signup" value placeholder="i.e. yourname@gmail.com">
+      </div>
+      <div>
+        <label for="password">password</label>  
+        <input type="password" name="password" id="password">
+      </div>
+      <div>
+        <input type="submit" value="Sign Up">
+      </div>
+    </form>
+  </body>
+</html>
