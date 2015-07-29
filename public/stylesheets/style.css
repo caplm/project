@@ -19,6 +19,8 @@ input {
     padding: 20px; 
     width: 240px;
     height: auto; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #signup_form {
@@ -27,5 +29,7 @@ input {
     border: 2px solid navy;
     padding: 20px; 
     width: 240px;
-    height: auto; 
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
 }
