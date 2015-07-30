@@ -1,11 +1,17 @@
 body {
 
-  font-family: sans-serif;
-  color: navy;
+  font-family: 'Karla', sans-serif;
+  color: #9fa1ae;
+}
+
+label {
+
+  color: #ce3a2c;
 }
 
 input {
 
+  font-family: 'Karla', sans-serif;
   width: 200px;
   display: inline-block;
 } 
@@ -20,7 +26,7 @@ input {
     width: 240px;
     height: auto; 
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
 }
 
 #signup_form {
